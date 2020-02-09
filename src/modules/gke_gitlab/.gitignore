@@ -1,0 +1,7 @@
+.DS_Store
+build/
+test/account.json
+.env
+
+examples/**/vendor/
+examples/**/node_modules/
