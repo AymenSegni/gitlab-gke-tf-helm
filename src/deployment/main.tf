@@ -5,6 +5,6 @@ provider "google" {}
 // Deployments 
 module "gitlab" {
   source              = "../modules/gitlab_gke"
-  project_id                 = "<PROJECT ID>"
-  certmanager_email          = "test@example.com"
+  project_id                 = var.project_id
+  certmanager_email          = var.certmanager_email
 }
