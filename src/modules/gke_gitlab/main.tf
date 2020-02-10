@@ -178,7 +178,7 @@ resource "google_storage_bucket" "gitlab-runner-cache" {
 }
 // GKE Cluster
 resource "google_container_cluster" "gitlab" {
-  project            = "${var.project_id}"
+  project            = var.project_id
   name               = "gitlab"
   location           = var.region
   min_master_version = var.gke_version
