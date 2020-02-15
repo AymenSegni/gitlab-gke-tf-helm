@@ -1,5 +1,4 @@
-## Deploy Gitlab production grade on GKE
-# terraform-google-gke-gitlab
+# Deploy Gitlab production grade on GKE
 
 This Terraform configuration creates a scalable, reliable, and observable GitLab instance on Google Kubernetes Engine (GKE)  as the computing environment and the following services for storing
 data:
